@@ -10,8 +10,8 @@ import NotFound from './components/NotFound'
 const Root = () => (
     <BrowserRouter>
         <Switch>
-            <Route exact path='/' component={Connexion}/>
-            <Route exact path='/pseudo/:pseudo' component={App}/>
+            <Route exact path='/' component={Connexion} />
+            <Route exact path='/pseudo/:pseudo' component={App} />
             <Route component={NotFound} />
         </Switch>
     </BrowserRouter>
